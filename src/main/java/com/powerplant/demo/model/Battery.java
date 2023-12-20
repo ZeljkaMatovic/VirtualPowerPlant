@@ -27,4 +27,14 @@ public class Battery {
 	public int getWattCapacity() {
 		return wattCapacity;
 	}
+	
+	public Battery() {
+		
+	}
+	
+	public Battery(String name, String postcode, int wattCapacity) {
+		this.name = name;
+		this.postcode = postcode;
+		this.wattCapacity = wattCapacity;
+	}
 }

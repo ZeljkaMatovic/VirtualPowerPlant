@@ -20,10 +20,7 @@ import com.powerplant.demo.service.BatteryService;
 public class BatteryController {
 	@Autowired
 	private BatteryService batteryService;
-
-//	public BatteryController(BatteryService service) {
-//		this.batteryService = service;
-//	}
+	
 
 	@PostMapping("/add")
 	public void AddBatteries(@RequestBody List<Battery> batteries) {

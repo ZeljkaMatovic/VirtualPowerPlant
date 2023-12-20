@@ -92,10 +92,10 @@ The Virtual Power Plant application is system for aggregating distributed power 
 ## Build and Deployment
 
 1. **Building the Application:**
-   - Execute `./mvnw clean install`.
+   - Execute `mvnw.cmd clean install`.
 
 2. **Running the Application Locally:**
-   - Execute `java -jar your-application.jar`.
+   - Execute `java -jar VirtualPowerPlant-0.0.1-SNAPSHOT.jar` in `target` folder.
 
 3. **Configuration Overrides:**
    - The application allows command-line parameters for configuration overrides.
